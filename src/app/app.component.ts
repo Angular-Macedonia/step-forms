@@ -7,9 +7,10 @@ import { MatButtonModule } from '@angular/material/button';
 
 
 import { filter } from 'rxjs';
+import { JsonPipe } from '@angular/common';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, MatToolbarModule, MatIconModule, ReactiveFormsModule, FormsModule, MatButtonModule],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, MatToolbarModule, MatIconModule, ReactiveFormsModule, FormsModule, MatButtonModule, JsonPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush

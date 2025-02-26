@@ -22,3 +22,15 @@ content {
 form  {
   width: 65%;
 }
+
+.form-state {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+.form-errors {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
